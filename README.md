@@ -1,10 +1,10 @@
 # FinTrack – PostgreSQL Schema & Seeds
 
-[![CI](https://github.com/aakashtiwarisolutions/financial-db/actions/workflows/ci.yml/badge.svg)](https://github.com/aakashtiwarisolutions/<REPO>/actions/workflows/ci.yml)
-![License](https://img.shields.io/github/license/aakashtiwarisolutions/<REPO>?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/aakashtiwarisolutions/<REPO>?style=flat-square)
-![Issues](https://img.shields.io/github/issues/aakashtiwarisolutions/<REPO>?style=flat-square)
-![Stars](https://img.shields.io/github/stars/aakashtiwarisolutions/<REPO>?style=flat-square)
+[![CI](https://github.com/aakashtiwarisolutions/financial-db/actions/workflows/ci.yml/badge.svg)](https://github.com/aakashtiwarisolutions/financial-db/actions/workflows/ci.yml)
+![License](https://img.shields.io/github/license/aakashtiwarisolutions/financial-db?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/aakashtiwarisolutions/financial-db?style=flat-square)
+![Issues](https://img.shields.io/github/issues/aakashtiwarisolutions/financial-db?style=flat-square)
+![Stars](https://img.shields.io/github/stars/aakashtiwarisolutions/financial-db?style=flat-square)
 
 FinTrack is a lightweight PostgreSQL schema that helps you store basic **users** and their **financial notes** (expenses, sources, balances). It’s simple, readable, and easy to extend for personal finance apps, dashboards, or coursework.
 
