@@ -2,12 +2,12 @@
 -- PostgreSQL database dump
 --
 
-\restrict pA57D9WzCZIEOBRL8OCRw5c5bySUREzVxLIEl19NhD1hDuXJL8661Yl4W1RHPkp
+\restrict VO0fWIi4N5JBcbyGSgGBHQcIO2aETM6Y7Kb2843IL028cmSSkOgj381D1pe6oDL
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
 
--- Started on 2025-10-03 22:56:27
+-- Started on 2025-10-03 23:47:31
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -32,7 +32,7 @@ CREATE SCHEMA "Financial";
 ALTER SCHEMA "Financial" OWNER TO pg_database_owner;
 
 --
--- TOC entry 4857 (class 0 OID 0)
+-- TOC entry 4860 (class 0 OID 0)
 -- Dependencies: 6
 -- Name: SCHEMA "Financial"; Type: COMMENT; Schema: -; Owner: pg_database_owner
 --
@@ -107,6 +107,36 @@ CREATE TABLE "Financial".incoming_sources (
 ALTER TABLE "Financial".incoming_sources OWNER TO postgres;
 
 --
+-- TOC entry 4852 (class 0 OID 16388)
+-- Dependencies: 218
+-- Data for Name: Financial Notes; Type: TABLE DATA; Schema: Financial; Owner: postgres
+--
+
+COPY "Financial"."Financial Notes" ("ID", "Expense", "Spend", "Source", "Balance Due", notes, flag, "Created Date", "Modified Date") FROM stdin;
+1	Electricity bill	180.00	PJ Foods	0.00	paid for August 2025	t	2025-09-25 20:40:46.416707-04	2025-09-25 20:40:46.416707-04
+\.
+
+
+--
+-- TOC entry 4853 (class 0 OID 16395)
+-- Dependencies: 219
+-- Data for Name: incoming_sources; Type: TABLE DATA; Schema: Financial; Owner: postgres
+--
+
+COPY "Financial".incoming_sources  FROM stdin;
+\.
+
+
+--
+-- TOC entry 4862 (class 0 OID 0)
+-- Dependencies: 220
+-- Name: Financial Notes_ID_seq; Type: SEQUENCE SET; Schema: Financial; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"Financial"."Financial Notes_ID_seq"', 1, true);
+
+
+--
 -- TOC entry 4705 (class 2606 OID 16392)
 -- Name: Financial Notes Financial Notes_pkey; Type: CONSTRAINT; Schema: Financial; Owner: postgres
 --
@@ -124,7 +154,7 @@ CREATE TRIGGER trg_set_modified_date BEFORE UPDATE ON "Financial"."Financial Not
 
 
 --
--- TOC entry 4858 (class 0 OID 0)
+-- TOC entry 4861 (class 0 OID 0)
 -- Dependencies: 6
 -- Name: SCHEMA "Financial"; Type: ACL; Schema: -; Owner: pg_database_owner
 --
@@ -132,11 +162,11 @@ CREATE TRIGGER trg_set_modified_date BEFORE UPDATE ON "Financial"."Financial Not
 GRANT USAGE ON SCHEMA "Financial" TO PUBLIC;
 
 
--- Completed on 2025-10-03 22:56:27
+-- Completed on 2025-10-03 23:47:31
 
 --
 -- PostgreSQL database dump complete
 --
 
-\unrestrict pA57D9WzCZIEOBRL8OCRw5c5bySUREzVxLIEl19NhD1hDuXJL8661Yl4W1RHPkp
+\unrestrict VO0fWIi4N5JBcbyGSgGBHQcIO2aETM6Y7Kb2843IL028cmSSkOgj381D1pe6oDL
 
