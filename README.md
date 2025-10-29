@@ -37,10 +37,10 @@ FinTrack is a lightweight PostgreSQL schema that helps you store basic **users**
 
 ## Quick start
 
-### 1) Requirements
+### 1) Requirements:
 - PostgreSQL 14+ (newer works)
 - `psql` available in your PATH
 
-### 2) Create a database
+### 2) Create a database:
 ```bash
 createdb fintrack_dev
