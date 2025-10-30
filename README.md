@@ -10,7 +10,7 @@ FinTrack is a lightweight PostgreSQL schema that helps you store basic **users**
 
 ---
 
-## What’s inside
+## What’s inside:
 
 - **Schema name:** `Financial`
 - **Tables**
