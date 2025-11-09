@@ -50,7 +50,7 @@ SET row_security = off;
 --
 -- TOC entry 6 (class 2615 OID 16412)
 -- Name: Financial; Type: SCHEMA; Schema: -; Owner: postgres
---
+-- Schema Script Starts from here
 
 CREATE SCHEMA "Financial";
 
